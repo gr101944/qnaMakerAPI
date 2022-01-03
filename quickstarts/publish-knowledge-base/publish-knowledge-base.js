@@ -14,10 +14,17 @@ let service = '/qnamaker/v4.0';
 let method = '/knowledgebases/';
 
 // NOTE: Replace this with a valid subscription key.
+<<<<<<< HEAD
 let subscriptionKey = 'aaa974c358ab4d609d1xxxxxxxxxxxx';
 
 // Replace this with a valid knowledge base ID.
 let kb = 'f02242c0-c978-4915-xxxx-xxxxxxxx';
+=======
+let subscriptionKey = 'aaa974c358ab4d609d13xxxxxxx';
+
+// Replace this with a valid knowledge base ID.
+let kb = 'f02242c0-c978-4915-bd66-xxxxxxxx';
+>>>>>>> eba480fa5c95ff7a474179bc7b7ac74f0354313d
 
 // Build your path URL.
 let path = service + method + kb;
